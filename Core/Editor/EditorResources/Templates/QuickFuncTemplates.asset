@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfc7ba981ad6f114a99e9cc24d0c995d, type: 3}
+  m_Name: QuickFuncTemplates
+  m_EditorClassIdentifier: 
+  templates:
+  - name: Debug
+    code: Debug.Log("Hello World");
+    quickFunc:
+      classWrapper: "{0}\r\n\r\npublic static class DefaultTemplate\r\n{{\r\n\tpublic
+        static void Main()\r\n\t{{\r\n\t\t{1};\r\n\t}}\r\n}}"
+      assemblies:
+      - System.dll
+      - System.Core.dll
+      - D:\Software\Unity Editors\2021.3.5f1\Editor\Data\Managed\UnityEngine\UnityEditor.CoreModule.dll
+      - D:\Software\Unity Editors\2021.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll
+      namespaces:
+      - UnityEngine
+      - UnityEditor
+      - System.Collections
+      - System.Collections.Generic
+      hotCompile: 0
+  - name: Remove Whitespaces
+    code: "GameObject[] gameObjects = GameObject.FindObjectsOfType<GameObject>();\r\nfor
+      (int i = 0; i < gameObjects.Length; i++)\r\n{\r\n     GameObject gameObject
+      = gameObjects[i];\r\n     gameObject.name = gameObject.name.Replace(\" \",
+      \"\");\r\n}"
+    quickFunc:
+      classWrapper: "{0}\r\n\r\npublic static class DefaultTemplate\r\n{{\r\n\tpublic
+        static void Main()\r\n\t{{\r\n\t\t{1};\r\n\t}}\r\n}}"
+      assemblies:
+      - System.dll
+      - System.Core.dll
+      - D:\Software\Unity Editors\2021.3.5f1\Editor\Data\Managed\UnityEngine\UnityEditor.CoreModule.dll
+      - D:\Software\Unity Editors\2021.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll
+      namespaces:
+      - UnityEngine
+      - UnityEditor
+      - System.Collections
+      - System.Collections.Generic
+      hotCompile: 0
+  - name: Sort by name
+    code: "GameObject[] gameObjects = GameObject.FindObjectsOfType<GameObject>();\r\nfor
+      (int i = 0; i < gameObjects.Length; i++)\r\n{\r\n     GameObject gameObject
+      = gameObjects[i];\r\n     gameObject.name = gameObject.name.Replace(\" \",
+      \"\");\r\n}"
+    quickFunc:
+      classWrapper: "{0}\r\n\r\npublic static class DefaultTemplate\r\n{{\r\n\tpublic
+        static void Main()\r\n\t{{\r\n\t\t{1};\r\n\t}}\r\n}}"
+      assemblies:
+      - System.dll
+      - System.Core.dll
+      - D:\Software\Unity Editors\2021.3.5f1\Editor\Data\Managed\UnityEngine\UnityEditor.CoreModule.dll
+      - D:\Software\Unity Editors\2021.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll
+      namespaces:
+      - UnityEngine
+      - UnityEditor
+      - System.Collections
+      - System.Collections.Generic
+      hotCompile: 0
+  - name: Remove null scripts
+    code: "GameObject[] gameObjects = GameObject.FindObjectsOfType<GameObject>();\r\nfor
+      (int i = 0; i < gameObjects.Length; i++)\r\n{\r\n     GameObject gameObject
+      = gameObjects[i];\r\n     gameObject.name = gameObject.name.Replace(\" \",
+      \"\");\r\n}"
+    quickFunc:
+      classWrapper: "{0}\r\n\r\npublic static class DefaultTemplate\r\n{{\r\n\tpublic
+        static void Main()\r\n\t{{\r\n\t\t{1};\r\n\t}}\r\n}}"
+      assemblies:
+      - System.dll
+      - System.Core.dll
+      - D:\Software\Unity Editors\2021.3.5f1\Editor\Data\Managed\UnityEngine\UnityEditor.CoreModule.dll
+      - D:\Software\Unity Editors\2021.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll
+      namespaces:
+      - UnityEngine
+      - UnityEditor
+      - System.Collections
+      - System.Collections.Generic
+      hotCompile: 0
