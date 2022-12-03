@@ -1,5 +1,5 @@
 <div align="center">
-<a href="https://assetstore.unity.com/publishers/26774"><img src="/Core/Editor/EditorResources/Images/Logotype/QuickCode_FullHD.png" alt="QuickCode Logotype" width="700" align="center"></a>
+<a href="https://u3d.as/1pug"><img src="/Core/Editor/EditorResources/Images/Logotype/QuickCode_FullHD.png" alt="QuickCode Logotype" width="700" align="center"></a>
 </div>
 
 
@@ -10,7 +10,7 @@ Quick Code is a Unity editor extension for quickly create and run functions of a
 Quick Code can be used at all stages of project development. For example, you need to rename all objects with a specific component, generate random positions or scale for objects or for example generate a mesh and also can be used for testing, debugging and etc.
 
 
-[Documentation](https://renownedgames.gitbook.io/quickcode/) | [Discord](https://discord.gg/RBwRGWReG2) | [Twitter](https://twitter.com/InfiniteDawnTS) | [Reddit](https://www.reddit.com/r/InfiniteDawn/)
+[Forum](https://forum.unity.com/threads/quick-code-live-coding-inside-editor.601765/) | [YouTube](https://youtube.com/@RenownedGamesMedia) | [Discord](https://discord.gg/RBwRGWReG2) | [Twitter](https://twitter.com/RenownedGames)
 
 
 * **Live coding inside editor!**
@@ -39,9 +39,9 @@ Clone, add as submodule or download this repository and add in the project.
 
 ### Clone repository
 
-`git clone https://gitlab.com/TamerlanShakirov/quick-code.git Assets/InfiniteDawn/Quick Code`
+`git clone https://gitlab.com/TamerlanShakirov/quick-code.git Assets/RenownedGames/QuickCode`
 
 ### Add repository as submudule
 
-`git submodule add https://gitlab.com/TamerlanShakirov/quick-code.git Assets/InfiniteDawn/Quick Code`
+`git submodule add https://gitlab.com/TamerlanShakirov/quick-code.git Assets/RenownedGames/QuickCode`
 
