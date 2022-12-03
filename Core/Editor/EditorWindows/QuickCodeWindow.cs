@@ -8,14 +8,9 @@
    ================================================================ */
 
 using RenownedGames.ExLibEditor.Windows;
-using RenownedGames.ExLibEditor;
 using UnityEditor;
-using UnityEngine;
 using UnityEditorInternal;
-using System.Reflection;
-using System;
-using System.Collections.Generic;
-using System.IO;
+using UnityEngine;
 
 namespace RenownedGames.QuickCodeEditor
 {
