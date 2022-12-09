@@ -29,7 +29,7 @@ namespace RenownedGames.QuickCodeEditor
         /// </summary>
         protected override void InitializeVersion(out string version)
         {
-            version = "Version: 2.0.2";
+            version = "Version: 2.0.3";
         }
 
         /// <summary>
