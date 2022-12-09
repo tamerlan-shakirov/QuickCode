@@ -1,5 +1,5 @@
 <div align="center">
-<a href="https://u3d.as/1pug"><img src="/Core/Editor/EditorResources/Images/Logotype/QuickCode_FullHD.png" alt="QuickCode Logotype" width="700" align="center"></a>
+<a href="https://u3d.as/1pug"><img src="/Core/Editor/EditorResources/Images/Logotype/QuickCode_1920x1080.png" alt="QuickCode Logotype" width="700" align="center"></a>
 </div>
 
 
@@ -28,20 +28,3 @@ Quick Code recommended to use on Unity **2021.3 LTS** and the latest version of 
 **Verified on Unity versions**
 * Unity 2022.1
 * Unity 2021.3 (LTS)
-
-
-
-## Quick Start
-
-Download and install Unity **2021.3 LTS** or higher.
-
-Clone, add as submodule or download this repository and add in the project.
-
-### Clone repository
-
-`git clone https://gitlab.com/TamerlanShakirov/quick-code.git Assets/RenownedGames/QuickCode`
-
-### Add repository as submudule
-
-`git submodule add https://gitlab.com/TamerlanShakirov/quick-code.git Assets/RenownedGames/QuickCode`
-

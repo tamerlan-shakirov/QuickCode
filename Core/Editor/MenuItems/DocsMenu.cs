@@ -8,13 +8,12 @@
    ================================================================ */
 
 using UnityEditor;
-using UnityEngine;
 
 namespace RenownedGames.QuickCodeEditor
 {
     static class DocsMenu
     {
-        [MenuItem("Renowned Games/Quick Code/Documentation", false, 702)]
+        [MenuItem("Renowned Games/Quick Code/Documentation", false, 41)]
         public static void OpenAPI()
         {
             Help.BrowseURL("https://renownedgames.gitbook.io/quick-code/");

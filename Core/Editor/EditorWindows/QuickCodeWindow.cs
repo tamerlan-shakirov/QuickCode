@@ -308,7 +308,7 @@ namespace RenownedGames.QuickCodeEditor
         #endregion
 
         #region [Static Methods]
-        [MenuItem("Renowned Games/Quick Code/Quick Code Window", false, 730)]
+        [MenuItem("Renowned Games/Quick Code/Quick Code Window", false, 70)]
         public static void Open()
         {
             QuickCodeWindow window = GetWindow<QuickCodeWindow>("Quick Code");
